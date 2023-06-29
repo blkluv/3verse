@@ -1,8 +1,8 @@
 {
-  "name": "earthverse",
+  "name": "w3b",
   "version": "1.0.0",
   "private": true,
-  "author": "Arin Dewangan",
+  "author": "The Wizard of Hahz",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -31,9 +31,9 @@
     "next": "^13.0.2",
     "next-auth": "^4.15.1",
     "react": "^18.2.0",
-    "react-camera-pro": "^1.2.1",
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.1.0",
+    "react-camera-pro": "^1.2.1",
     "styled-components": "^5.3.6",
     "typescript": "4.8.4",
     "wagmi": "^0.7.12"
@@ -43,5 +43,10 @@
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.18",
     "tailwindcss": "^3.2.2"
+  },
+  "eslintConfig": {
+    "rules": {
+      "react/no-unknown-property": [2, {"ignore": ["svg"]}]
+    }
   }
 }
